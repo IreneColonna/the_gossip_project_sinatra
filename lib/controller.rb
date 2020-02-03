@@ -15,8 +15,9 @@ class ApplicationController < Sinatra::Base
 		redirect '/'
 	end
 
-	get '/gossips/:id' do
-		 "Voici le numéro du potin que tu veux :  #{Gossip.find(params['id'])} !"
+	get '/gossips/:id/' do
+		"Voici le numéro du potin que tu veux :  #{params['id']} !"
 	end
 
 end
+

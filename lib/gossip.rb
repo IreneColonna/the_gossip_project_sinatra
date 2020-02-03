@@ -29,3 +29,6 @@ class Gossip
 		Gossip.all[id - 1]
 	end
 
+end
+
+
